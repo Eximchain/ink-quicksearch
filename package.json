@@ -1,9 +1,9 @@
 {
   "name": "ink-quicksearch-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quicksearch Input Component for Ink 2",
   "main": "build/QuickSearchInput.js",
-  "types": "src/QuickSearchInput.tsx",
+  "types": "build/QuickSearchInput.d.ts",
   "author": {
     "name": "John O'Sullivan <john@eximchain.com>"
   },
@@ -15,7 +15,7 @@
     "start": "node build/examples/ExampleDirectory.js"
   },
   "files": [
-    "src/QuickSearchInput.tsx",
+    "build/QuickSearchInput.d.ts",
     "build/QuickSearchInput.js",
     "tsconfig.json"
   ],
