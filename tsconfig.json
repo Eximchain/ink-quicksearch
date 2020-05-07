@@ -19,7 +19,8 @@
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
       "typeRoots": ["node_modules/@types"],
-      "jsx": "react"
+      "jsx": "react",
+      "declaration": true
     },
     "typedocOptions": {
       "mode" : "modules",
