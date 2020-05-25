@@ -261,7 +261,7 @@ export const QuickSearch: FC<QuickSearchProps> = (props) => {
                             <Text>{preMatch}<Highlight>{match}</Highlight>{postMatch}</Text>
                         )
                         return (
-                            <Box flexDirection='row' key={`item-${item.label}`}>
+                            <Box flexDirection='row' key={`item-${item.value || item.label}`}>
                                 <Item {...itemProps}>
                                     <Indicator {...itemProps} />
                                     {labelComponent}
