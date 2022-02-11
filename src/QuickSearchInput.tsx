@@ -273,7 +273,7 @@ export const QuickSearch: FC<QuickSearchProps> = (props) => {
             {
                 !usingLimitedView ? null : (
                     <Box key='num-visible-items'>
-                        <HighlightComponent>Viewing {begin}-{end} of {matchingItems.length} matching items ({items.length} items overall)</HighlightComponent>
+                        <Highlight>Viewing {begin}-{end} of {matchingItems.length} matching items ({items.length} items overall)</Highlight>
                     </Box>
                 )
             }
